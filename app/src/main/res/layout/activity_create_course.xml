@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_dark_in"
+    tools:context=".ActivityCreateCourse">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/homeButton"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0"
+            android:background="@color/blue_dark_in"
+            app:srcCompat="@drawable/home" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0"
+            android:background="@color/blue_dark_in"
+            app:srcCompat="@drawable/ic_call_missed_outgoing_black_24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="left">
+
+        <EditText
+            android:id="@+id/editTextCourseID_create"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="170dp"
+            android:layout_weight="1"
+            android:background="@drawable/bubble_right_2"
+            android:ems="10"
+            android:fontFamily="@font/oxygenfont"
+            android:gravity="center_vertical"
+            android:hint="Ders ID"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textColorHint="#B3FFFFFF"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="left">
+
+        <EditText
+            android:id="@+id/editTextCourseName_create"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:hint="Ders Adı"
+            android:paddingLeft="15dp"
+            android:background="@drawable/bubble_right_2"
+            android:fontFamily="@font/oxygenfont"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textColorHint="#B3FFFFFF"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="left">
+
+        <EditText
+            android:id="@+id/editTextCourseSemester_create"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:hint="Dönem"
+            android:paddingLeft="15dp"
+            android:background="@drawable/bubble_right_2"
+            android:fontFamily="@font/oxygenfont"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textColorHint="#B3FFFFFF"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="left">
+
+        <Button
+            android:id="@+id/buttonCreateCourse_create"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/bubble_right"
+            android:fontFamily="@font/oxygenfont"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="Ders Oluştur"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+</LinearLayout>

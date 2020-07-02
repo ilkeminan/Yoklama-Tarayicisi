@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/blue_dark_in">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/homeButton"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0"
+            android:background="@color/blue_dark_in"
+            app:srcCompat="@drawable/home" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0"
+            android:background="@color/blue_dark_in"
+            app:srcCompat="@drawable/ic_call_missed_outgoing_black_24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="155dp"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewNumberOfWeeks"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/oxygenfont"
+            android:text="@string/haftasayisi"
+            android:textSize="17dp" />
+
+        <Spinner
+            android:id="@+id/spinnerNumberOfWeeks"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/oxygenfont"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewFirstWeek"
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:fontFamily="@font/oxygenfont"
+            android:text="@string/ilkhafta"
+            android:textSize="17dp" />
+
+        <EditText
+            android:id="@+id/editTextFirstWeek"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:fontFamily="@font/oxygenfont"
+            android:inputType="numberDecimal"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:layout_weight="0"
+            android:fontFamily="@font/oxygenfont"
+            android:gravity="center_vertical"
+            android:text="Yoklama Ekle"
+            android:textSize="17dp" />
+
+
+        <ImageButton
+            android:id="@+id/buttonCamera"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="0"
+            android:background="@color/blue_dark_in"
+            android:fontFamily="@font/oxygenfont"
+            android:gravity="center_vertical"
+            app:srcCompat="@drawable/camera"
+            tools:srcCompat="@drawable/camera" />
+
+        <ImageButton
+            android:id="@+id/buttonChooseImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0"
+            android:background="@color/blue_dark_in"
+            android:fontFamily="@font/oxygenfont"
+            android:gravity="center_vertical"
+            app:srcCompat="@drawable/gallery"
+            tools:srcCompat="@drawable/gallery" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButtonConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/blue_dark_in"
+            app:srcCompat="@drawable/confirm"
+            tools:srcCompat="@drawable/confirm" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="0" />
+    </LinearLayout>
+
+
+</LinearLayout>

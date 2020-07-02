@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "4931070921",
+    "firebase_url": "https://yoklamataraticisi.firebaseio.com",
+    "project_id": "yoklamataraticisi",
+    "storage_bucket": "yoklamataraticisi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4931070921:android:f9f36084d4053e7fa21618",
+        "android_client_info": {
+          "package_name": "com.example.yoklamataraticisi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "4931070921-fpcchduac5v77rvqjcseq8bf1tmrmqla.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yoklamataraticisi",
+            "certificate_hash": "b3fd866c4b4d4683e0d0a55503b0760547451492"
+          }
+        },
+        {
+          "client_id": "4931070921-9ciru3rh895ciba8fotogb9m6mh4rfgt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYWLUm3fHAAwBIwRutumRrjhkpOndlpXU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "4931070921-9ciru3rh895ciba8fotogb9m6mh4rfgt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

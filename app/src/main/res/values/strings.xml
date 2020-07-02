@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Yoklama Tarayıcısı</string>
+    <string name="ad">Ad</string>
+    <string name="soyad">Soyad</string>
+    <string name="kullaniciadi">Kullanıcı Adı</string>
+    <string name="sifre">Şifre</string>
+    <string name="email">E-mail</string>
+    <string name="giris">Giriş Yap</string>
+    <string name="haftasayisi">Yoklama alınacak hafta sayısı:</string>
+    <string name="ilkhafta">Yoklama alınacak haftaların ilki:</string>
+    <string name="yoklamakagidisayisi">Yoklama kağıdı sayısı:</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string-array name="numbers">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="week_intervals">
+        <item>Hafta: 1-5</item>
+        <item>Hafta: 6-10</item>
+        <item>Hafta: 11-14</item>
+    </string-array>
+    <string-array name="statistics">
+        <item>Haftalara Göre Devam</item>
+        <item>Derslere Göre Devam</item>
+        <item>Haftalık Değişim</item>
+    </string-array>
+</resources>
